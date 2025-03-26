@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.AllUserTable{
+	width: 100%;
+	min-height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.AllUserTable table{
+	background: #252525;
+	color: #fff;
+	padding: 50px 75px;
+	transition: transform .3s ease;
+}
+
+.AllUserTable table:hover{
+	transform: scale(1.05);
+	box-shadow: #00000040 5px 8px 8px 0px ;
+}
+
+.AllUserTable table thead{
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.AllUserTable table thead tr td,
+.AllUserTable table tbody tr td{
+	width: 13vw;
+	border-bottom: 2px solid #fff;
+	padding: 15px 55px 15px 25px;
+	word-break: break-all;
+}
+
+
+.AllUserTable table tbody tr:hover{
+	background: #eeeeee75;
+	
+}
+
+
+
+
+
